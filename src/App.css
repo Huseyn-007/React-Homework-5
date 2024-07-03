@@ -1,3 +1,7 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +39,54 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.container{
+  display: flex;
+  
+}
+
+.datas{
+  width: 400px;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.inputs{
+  margin-left: 50px;
+  margin-top: 50px;
+  width: 400px;
+  display: block;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+input{
+  width: 300px;
+  height: 30px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+h1{
+  font-size: 2em;
+}
+
+.cars{
+  display: flex;
+}
+p{
+  margin: 30px;
+}
+
+button{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  border: 0;
+  background-color: deepskyblue;
+  font-size: 1.5em;
+  width: 300px;
 }
